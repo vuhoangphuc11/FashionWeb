@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>VHP - Multipurpose Template</title>
+    <meta name='keywords' content='business, clean, twitter, bootstrap 3, responsive'>
+    <meta name='description' content="Colores is a professional multipurpose template for any business, portfolio or blog website.">
+    <meta name='author' content='#'>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!-- Mega menu -->
+    <link rel="stylesheet" type="text/css" href="css/megamenu.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="css/colors/color1.css" id="colors">
+
+
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/favicon.png" rel="shortcut icon">
+
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/category-ctrl.js"></script>
+
+    <!--[if lt IE 9]>
+       <script src="javascript/html5shiv.js"></script>
+       <script src="javascript/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign in</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+                        <span class="label-input100">Username</span>
+                        <input class="input100" type="text" name="username" placeholder="Type your username">
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <span class="label-input100">Password</span>
+                        <input class="input100" type="password" name="pass" placeholder="Type your password">
+                        <span class="focus-input100" data-symbol="&#xf190;"></span>
+                    </div>
+                    <div class="contact100-form-checkbox">
+                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        <label class="label-checkbox100" for="ckb1">
+                        Remember me
+                    </label>
+                    </div>
+                    <div class="flex-col-c p-t-170 p-b-40">
+                        <span class="txt1 p-b-9">
+                        Don’t have an account?
+                    </span>
+
+                        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="txt3">
+                        Sign up now
+                    </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+                    <button type="button" class="btn btn-primary">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="frmBonus1">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <div class="wrap-input100 validate-input m-b-23" data-validate="Fullname is reauired">
+                                <span class="label-input100">Fullname</span><br>
+                                <span ng-show="frmBonus1.txtFullname.$invalid" style="color: red;">
+                            Please enter a username no more than 15 characters
+                        </span>
+                                <input class="input100" type="text" name="txtFullname" placeholder="Type your Fullname" ng-model="fullname" name="txtFullname" maxlength="15" required>
+                                <span class="focus-input100" data-symbol="&#xf206;">
+                           
+                        </span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+                                <span class="label-input100">Username</span><br>
+                                <span ng-show="frmBonus1.txtUsername.$invalid" style="color: red;">
+                            Please enter the first and last name no more than 25 characters
+                        </span>
+                                <input class="input100" type="text" name="txtUsername" placeholder="Type your Username" ng-model="username" name="txtUsername" maxlength="25" required>
+                                <span class="focus-input100" data-symbol="&#xf206;"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input" data-validate="Password is required">
+                                <span class="label-input100">Password</span><br>
+                                <span ng-show="frmBonus1.txtPassword.$invalid" style="color: red;">
+                            Please enter a password with uppercase word
+                        </span>
+                                <input class="input100" type="password" name="txtPassword" placeholder="Type your password" ng-model="password" name="txtPassword" maxlength="15" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                                <span class="focus-input100" data-symbol="&#xf190;"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input m-b-23" data-validate="Email is reauired">
+                                <span class="label-input100">Email</span><br>
+                                <span ng-show="frmBonus1.txtEmail.$invalid" style="color: red;">
+                            Please enter the correct email
+                        </span>
+                                <input class="input100" type="email" name="txtEmail" placeholder="Type your Email" ng-model="email" name="txtEmail" type="email" required>
+                                <span class="focus-input100" data-symbol="&#xf206;"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input m-b-23" data-validate="Birthday is reauired">
+                                <span class="label-input100">Birthday</span>
+                                <input class="input100" type="date" name="birthday" placeholder="Type your birthday">
+                                <span class="focus-input100" data-symbol="&#xf206;"></span>
+                            </div>
+
+                            <div class="contact100-form-checkbox">
+                                <input class="input-checkbox100" id="ckb1" type="checkbox" name="txtRemember" ng-model="remember" required>
+                                <label class="label-checkbox100" for="ckb1">
+                            I agree with the terms
+                        </label>
+                                <br>
+                                <span ng-show="frmBonus1.txtRemember.$invalid" style="color: red;">
+                            Please read the terms before login
+                        </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+                        <button type="button" class="btn btn-primary">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="flat-top v1 flat-reset">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="flat-top-left flat-left">
+                        Welcome to our store. You need help? Please call free
+                        <span>
+                            <i class="fa fa-phone"></i>
+                            0123-456-789
+                        </span>
+                    </div>
+                    <!-- /.flat-top-left -->
+
+                    <div class="flat-top-right flat-right">
+                        <ul>
+                            <li><a data-toggle="modal" data-target="#exampleModal1"><i class="fa fa-user"></i>Sign-in</a></li>
+                            <li><a data-toggle="modal" data-target="#exampleModal2"><i class="fa fa-user"></i>Sign-up</a></li>
+                            <li><a href=""><i class="fa fa-heart"></i>My Wishlist</a></li>
+                            <li><a href=""><i class="fa fa-check-square-o"></i>Checkout</a></li>
+                            <li><a href=""><i class="fa fa-sign-in"></i>Sign In</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.flat-top-right -->
+                </div>
+            </div>
+        </div>
+
+        <div class="flat-multilanguage">
+            <aside id="icl_lang_sel_widget-1" class="widget widget_icl_lang_sel_widget">
+                <div id="lang_sel">
+                    <ul>
+                        <li>
+                            <a href="#" class="lang_sel_sel icl-en">
+                                <span class="icl_lang_sel_current icl_lang_sel_native">English</span>
+                            </a>
+
+                            <ul>
+                                <li class="icl-en">
+                                    <a href="#">
+                                        <img class="iclflag" src="img/header/en.png" alt="de" title="German">
+                                        <span class="icl_lang_sel_native">English</span>
+                                        <span class="icl_lang_sel_translated">
+                                            <span class="icl_lang_sel_bracket">(</span> English
+                                        <span class="icl_lang_sel_bracket">)</span>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="icl-fr">
+                                    <a href="#">
+                                        <img class="iclflag" src="img/header/fe.png" alt="fr" title="French">
+                                        <span class="icl_lang_sel_native">Français</span>
+                                        <span class="icl_lang_sel_translated">
+                                            <span class="icl_lang_sel_bracket">(</span> French
+                                        <span class="icl_lang_sel_bracket">)</span>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="icl-de">
+                                    <a href="#">
+                                        <img class="iclflag" src="img/header/ge.png" alt="de" title="German">
+                                        <span class="icl_lang_sel_native">Deutsch</span>
+                                        <span class="icl_lang_sel_translated">
+                                            <span class="icl_lang_sel_bracket">(</span> German
+                                        <span class="icl_lang_sel_bracket">)</span>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="flat-currency">
+                                    <a href="#" class="flat-dollar">USD</a>
+                                    <a href="#" class="flat-euro">EURO</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- #lang_sel -->
+            </aside>
+            <!-- /.widget_icl_lang_sel_widget -->
+        </div>
+        <!-- /.flat-multilanguage -->
+    </div>
+    <!-- /.flat-top -->
+
+    <header class="flat-header flat-reset">
+        <div class="flat-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 padding-right-0">
+                        <div class="flat-logo">
+                            <a href="#home" title="Logo">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- /.flat-logo -->
+
+                        <div class="flat-widgets">
+                            <aside class="widget widget_search">
+                                <form role="search" method="get" class="search-form" action="#">
+                                    <label>
+                                        <span class="screen-reader-text">Search for:</span>
+                                        <input type="search" class="search-field" placeholder="Search for product, category or brand..." value="" name="s">
+                                    </label>
+                                    <input type="submit" class="search-submit" value="SEARCH">
+                                </form>
+                            </aside>
+                            <!-- /.widget_search -->
+
+                            <aside class="widget widget_shipping">
+                                <a href="#">
+                                    <img src="img/header/delivery.png" alt="Delivery">
+                                    <span class="title">EVERY DAY FREE SHIPPING</span>
+                                    <span>on onders over $560.00</span>
+                                </a>
+                            </aside>
+                            <!-- /.widget_shipping -->
+
+                            <aside class="widget widget_shopping">
+                                <a href="#cart">
+                                    <img src="img/header/shop.png" alt="Delivery">
+                                    <span class="title">SHOPPING CART</span>
+                                    <span>items</span>
+                                </a>
+                            </aside>
+                            <!-- /.widget_shopping -->
+
+                        </div>
+                        <!-- /.flat-widgets -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.flat-header-top -->
+
+        <div class="flat-header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="flat-menu flat-left">
+                            <div class="btn-menu">
+                                <span></span>
+                            </div>
+                            <!-- //mobile menu button -->
+                            <div class="nav-wrap">
+                                <nav id="mainnav" class="mainnav">
+                                    <ul class="menu">
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#product">Product</a></li>
+                                        <li><a href="#contact">Contact Us</a></li>
+                                        <li><a href="#blog">Blog</a></li>
+                                    </ul>
+                                    <!-- /.menu -->
+                                </nav>
+                                <!-- /.mainnav -->
+                            </div>
+                            <!-- /.nav-wrap -->
+                        </div>
+                        <!-- /.flat-menu -->
+
+                        <div class="flat-header-socials flat-right">
+                            <ul>
+                                <li><a href="https://www.facebook.com/vuhoangphuc0911/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/vuhoangphuc0911"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.flat-header-socials -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.flat-header-bottom -->
+    </header>
+    <!-- /.flat-header -->
+
+
+
+
+
+
+    <!-- <script src="js/Prods.js"></script>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myctrl", function($scope, $http) {
+                $scope.products = listProduct; -->
+    <!-- <script src="js/Prods.js"></script> -->
+
+
+    <!-- <script>
+        var app = angular.module("myApp", []);
+
+
+        app.controller("myctrl", function($scope, $http) {
+                $scope.products = [];
+                $http.get("js/Prods2.json").then(function(response) {
+                    $scope.products = response.data;
+                    $scope.pageCount = Math.ceil($scope.products.length / 6);
+                });
+                
+                $scope.prop = "name";
+                $scope.sortBy = function(prop) {
+                    $scope.prop = prop;
+                }
+                $scope.begin = 0;
+
+
+                $scope.first = function() {
+                    $scope.begin = 0;
+                }
+
+                $scope.prev = function() {
+                    if ($scope.begin > 0) {
+                        $scope.begin -= 8;
+                    }
+                }
+
+                $scope.next = function() {
+                    if ($scope.begin < ($scope.pageCount - 1) * 8) {
+                        $scope.begin += 8;
+                    }
+                }
+
+                $scope.last = function() {
+                    $scope.begin = ($scope.pageCount - 1) * 8;
+                }
+            }),
+            app.filter('percentage', function($filter) {
+                return function(input, decimals) {
+                    return $filter('number')(input * 100, decimals) + '%';
+                }
+            });
+    </script> -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/jquery-waypoints.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Revolution Slider -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+/**
+  * Color
+  * Border Color
+  * Background Color  
+*/
+
+/* Color 
+-------------------------------------------------------------- */
+/* Color #243182 */
+ a,
+ a.link:hover,
+ h1, h2, h3, h4, h5, h6,
+ strong ,
+ .testimonial-author .author-info a:hover,
+ .tp-caption.title-slide,
+ .tp-caption.desc-slide,.flat-page-title.v2 h2 a:hover,
+ .general-sidebar .widget.widget_text .textwidget .widget_title,
+ .general-sidebar .widget.widget_nav_menu ul.nav_menu > li > a.active,
+ .general-sidebar .widget.widget_nav_menu ul.nav_menu > li > a.active:before,
+ .flat-accordion.style1 .flat-toggle .toggle-title,
+ .title-training-programs,#mega-menu-wrap-primary #mega-menu-primary .woocommerce ul.product_list_widget ins .amount,
+ .flat-tabs ul.menu-tabs li.active a, .widget_product_categories a:hover, .widget_manufaturer a:hover,
+ .widget.widget_recent_entries a, .breadcrumbs a:hover,
+ .flat-portfolio.portfolio-grid .portfolio .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a, 
+ .flat-portfolio.portfolio-grid-alt .portfolio .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a,
+ .portfolio-content-single .main-text .main-text-title,.sidebar-left .woocommerce ul.product_list_widget ins .amount,
+ .navigation.post-navigation .nav-links li a,.entry-footer .flat-blog-event a:hover,
+ .blog .blog-post .entry-header .entry-title a,.flat-header-bottom .flat-header-socials li:hover a,
+  .flat-comment-pagination .next, .flat-comment-pagination .current:hover, .flat-comment-pagination .inactive:hover,
+ .blog-single .blog-post .entry-header .entry-title a,.comment-event a:hover,
+ .comments-area .comment-respond .comment-reply-title,.flat-new-arrivals.v2 .item >a:first-of-type:hover,
+ .flat-our-products .two-row-v2 .amount,.flat-our-products .two-row-v2  .owl-nav i:hover,
+ #mega-menu-wrap-primary #mega-menu-primary a:hover,.flat-ordered li span,
+ .flat-top-right a:hover,.flat-multilanguage:hover:before,.flat-read-more.v2,.item-title a:hover,
+ .widget_lastest_post h5:hover,.featured-post .entry-header .title-post a:hover,.price-block p span:hover,
+ .widget_icl_lang_sel_widget a:hover,.entry-footer .meta-tags li a:hover,.entry-footer .meta-socials i:hover,
+ .flat-navigation .flat-pagination .pagination .current, .content-area .flat-navigation .flat-pagination a:hover,
+ .content-area .entry-header .meta-post a:hover,.widget_categories ul li a:hover, .widget_archives ul li a:hover,a:hover,
+ #mainnav-mobi ul > li > a,.item-content ins, .price-box ins,.flat-top-title.v2 h3 .color,.flat-footer-bottom .flat-short-link a:hover,
+ .flat-footer-top .widget_about_us .flat-button:hover,.flat-footer-top .widget_services a:hover, .flat-footer-top .widget_my_account a:hover,
+ .tp-caption.flat-button-slider a:hover,
+ ul.flat-infomation li::before,
+ .widget_services ul li::before,
+ .flat-copyright a,
+ .widget.widget_my_account ul li::before,
+ #mainnav ul.submenu > li > a:hover
+ {
+	color: #94bce1;
+}
+
+/* Color #ffe71e */
+
+#header.upscrolled #mainnav > ul > li > a.active,
+#header.upscrolled #mainnav > ul > li > a:hover,
+.flat-title-button .title i,
+.iconbox .box-readmore a,
+.latest-post .entry-footer .entry-meta a:hover,
+.blog-posts .entry-footer .entry-meta a:hover,
+.list-about h4 span i,
+.testimonial-author .author-info,
+.testimonial-author .author-info a,
+a.link,
+.switcher-container h2 a.active:after,
+.info-icon i,
+.page-title .breadcrumbs ul.trail-items li a:hover,
+.scheme2,
+.navigation.post-navigation .nav-links li a span,
+.navigation.post-navigation .nav-links li a:hover,
+.blog .blog-post .entry-header .entry-title a:hover, 
+.blog-single .blog-post .entry-header .entry-title a:hover,
+.blog-post .entry-header .entry-time,
+.blog .blog-post .entry-header .entry-meta a:hover, 
+.blog-single .blog-post .entry-header .entry-meta a:hover,
+.woocommerce .products li .product-info .star-rating i, 
+.woocommerce-page .products li .product-info .star-rating i,
+.single-products .summary .product-rating .star-rating span i,
+.woocommerce-reviews #comments ul.commentlist li .star-rating span i,
+.flat-header-bottom .flat-header-socials li:hover,
+#mainnav-mobi ul > li > a:hover,
+ul.portfolio-filter.style1 > li a:hover,
+.mail-chimp input[type="submit"]:hover,
+.about-content-text h4,
+.flat-contact-info li i
+ {
+	color: #94bce1;
+}
+
+/* Border Color
+-------------------------------------------------------------- */
+/* Border color #243182 */
+.flat-read-more:hover,.flat-footer-top .widget_about_us .flat-button:hover,
+.flat-slider .flat-shop-now:hover,.widget_icl_lang_sel_widget a:hover,
+.flat-multilanguage .flat-currency a:hover,.widget_tags a,
+textarea:focus, .flat-ordered li .quality input,.color a img:hover,.color a:hover:before,
+.flat-comment-pagination .next, .flat-comment-pagination .current:hover, .flat-comment-pagination .inactive:hover,
+.flat-header-bottom .flat-header-socials li:hover, .woocommerce-tabs .nav-tabs > li.active,
+.flat-ordered li .quality button,.flat-ordered .event a,.woocommerce-tabs .nav-tabs,
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+input.input-text:focus,
+.iconbox.circle.lagre:hover .box-header i,
+.flat-accordion.style5 .toggle-title.active,
+.flex-direction-nav a,
+.flat-button.radius,
+.flat-widgets .widget_search input.search-field:focus,
+.flat-ordered {
+	border-color: #94bce1;
+}
+
+/* Border color #ffe71e */
+#mainnav > ul > li > a.active,
+ul.flat-list li:before,.flat-ordered li .quality input:focus,.flat-ordered .event a:hover,
+.flat-portfolio.portfolio-grid-alt .portfolio .portfolio-item .portfolio-wrap:hover,
+.woocommerce .onsale:after, .woocommerce-page .onsale:after
+ {
+	border-color: #94bce1;
+}
+
+/* Background Color
+-------------------------------------------------------------- */
+/* Background color #243182 */
+.search-submit,.flat-button-26adc0 a, .flat-read-more:hover,.btn-bg-26adc0 .add-to-links a,
+.comment-reply .comment-reply-link:hover,.comment-form .form-submit input:hover,
+.flat-top-bar-shop .flat-sortby .flat-blog-select li li:hover, .flat-top-bar-shop .flat-showpost .flat-blog-select li li:hover,
+.tp-bullets .bullet.selected, .new-top-right + .sale-top-right,.flat-top-products .widgets,
+.flat-top-products .widgets .widget_newsletter.v2 .button.Subscribe-btn button:hover,
+.widget_price_filter .ui-slider-handle span,.flat-top-bar-shop .list-or-grid .grid-view:hover, .flat-top-bar-shop .list-or-grid .list-view:hover,
+.zoro-sidebar-2 .flat-op-filter li.active a, .zoro-sidebar-2 .flat-op-filter li:hover a,
+.product .new-top-right + .sale-top-right,.woocommerce-tabs .nav-tabs > li.active > a,
+.woocommerce-tabs .nav-tabs > li.active,.product-collateral .tabs ul li a:hover,
+.flat-banner.v3 .flat-shop-now:hover,.skew-button, .sale-top-right,.product-shop .actions ul li:hover,
+ .flat-slider .flat-shop-now:hover,.content-area .post-wrap .featured-post .entry-post .more-link a:hover,
+.owl-carousel .owl-dot.active, .flat-ltp-wrap span.date, .widget_tags a:hover,.flat-ordered li .quality button,
+.flat-navigation .flat-pagination .current:after, .flat-navigation .flat-pagination a:hover:after,.flat-ordered .event a,
+.flat-navigation .flat-sortby .flat-blog-select li :hover li:hover, .flat-navigation .flat-showpost .flat-blog-select li :hover li:hover,
+.flat-widgets .widget_search input.search-submit,
+.flat-header-bottom,
+.flat-footer-top .widget_about_us .flat-button,
+.go-top,
+.iconbox.circle.lagre .box-header i,
+.flat-progress .progress-animate,
+ul.portfolio-filter.style1 > li.active a,
+.flat-portfolio.style1 .view-detail,
+.flat-row-fix.mail-chimp,
+.iconbox.left-style3.rounded .icon-rounded,
+.flat-accordion.style5 .toggle-title.active,
+.flex-direction-nav a,
+.flat-contact-form button,
+.flat-header-bottom .flat-header-socials li:hover {
+	background-color: #94bce1;
+}
+
+.flat-header-bottom .flat-header-socials li:hover {
+	color: #fff;
+}
+
+.flat-button:hover,
+.flat-header-bottom .flat-header-socials li:hover,
+.flat-header-bottom .flat-header-socials li a:hover {
+	color: #fff !important;
+}
+

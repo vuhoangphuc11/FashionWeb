@@ -1,0 +1,121 @@
+﻿[{
+    "name":"Tee ADLV",
+    "price":190,
+    "discount":0.19,
+    "image":"img/portfolio/teeADLV.jpg"
+},
+{ 
+    "name":"Tee Dior", 
+    "price":210,
+    "discount":0,  
+    "image":"img/portfolio/teeDior.jpg" 
+},
+{ 
+    "name":"Tee Essential", 
+    "price":180, 
+    "discount":0,  
+    "image":"img/portfolio/teeEssential.jpg" 
+}, 
+{
+    "name":"Tee LA",
+    "price":150,
+    "discount":0.19,
+    "image":"img/portfolio/teeLA.jpg" 
+},
+{ 
+    "name":"Tee LV", 
+    "price":240, 
+    "discount":0,  
+    "image":"img/portfolio/teeLV.jpg" 
+},
+{ 
+    "name":"Tee LV Sky", 
+    "price":220, 
+    "discount":0,  
+    "image":"img/portfolio/teeLV2.jpg" 
+},
+{ 
+    "name":"Tee NY", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeNY.jpg" 
+}, 
+{ 
+    "name":"Tee DirtyCoins1", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC1.JPG" 
+}, 
+{ 
+    "name":"Tee DirtyCoins2", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC2.JPG" 
+}, 
+{ 
+    "name":"Tee DirtyCoins3", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC3.JPG" 
+}, 
+{ 
+    "name":"Tee DirtyCoins4", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC4.JPG" 
+}, 
+{ 
+    "name":"Tee DirtyCoins5", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC5.JPG" 
+}, 
+{ 
+    "name":"Tee DirtyCoins6", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeDC6.JPG" 
+},
+{ 
+    "name":"Tee BoBui1", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeBB1.JPG" 
+}, 
+{ 
+    "name":"Tee BoBui2", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeBB2.JPG" 
+}, 
+{ 
+    "name":"Tee BoBui3", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeBB3.JPG" 
+}, 
+{ 
+    "name":"Tee Bobui4", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeBB4.JPG" 
+}, 
+{ 
+    "name":"Tee Bobui5", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeBB5.JPG" 
+}, 
+{ 
+    "name":"Tee Maverik1", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeMVR1.JPG" 
+}, 
+{ 
+    "name":"Tee Maverik2", 
+    "price":160, 
+    "discount":0,  
+    "image":"img/portfolio/teeMVR2.JPG" 
+}
+]
